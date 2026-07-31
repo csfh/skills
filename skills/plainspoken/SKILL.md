@@ -1,5 +1,5 @@
 ---
-name: plainspoke
+name: plainspoken
 description: >
   Forces plainspoken prose when writing any human-facing text. Bans antithesis,
   corrective negation, paragraph pinning, parataxis, summary beats, rhetorical
@@ -9,14 +9,14 @@ description: >
   phrases, filler intensifiers, corporate-register verbs, nominalization, hedging
   qualifiers, and performed enthusiasm. Prefer the spoken voice and vary sentence
   length unpredictably. Use when writing prose, copy, docs, emails, commit messages
-  meant for humans, release notes, or when the user runs /plainspoke.
+  meant for humans, release notes, or when the user runs /plainspoken.
 compatibility: Designed for Agent Skills-compatible coding agents.
 metadata:
   author: Modoterra
   version: "1.0.0"
 ---
 
-# Plainspoke
+# Plainspoken
 
 Apply these rules to **all prose** you produce: explanations, summaries, docs,
 comments aimed at people, commit bodies, PR descriptions, emails, marketing copy,
@@ -91,14 +91,14 @@ You SHOULD:
 
 ## Scope by artifact
 
-| Artifact | Apply Plainspoke? |
+| Artifact | Apply Plainspoken? |
 |----------|-------------------|
 | Chat explanations, design notes, docs, README prose | Yes |
 | PR/commit **bodies** and human-oriented messages | Yes |
 | Conventional Commit **subjects** | Keep conventional form; avoid banned rhetoric in the rest of the message |
 | Code comments that teach | Yes |
 | Code itself, types, APIs | No |
-| User-requested quotes or required legal wording | Preserve required text; Plainspoke the surrounding prose |
+| User-requested quotes or required legal wording | Preserve required text; apply Plainspoken to the surrounding prose |
 
 ## Revision pass (mandatory before sending prose)
 
@@ -144,4 +144,4 @@ If a ban and clarity fight each other, **clarity of the true claim wins**, still
 - Do not mention this skill or its rule list in ordinary outputs unless the user asks how the prose was shaped.
 - Do not replace banned devices with synonyms that do the same job under another name.
 - Do not perform “plainness” as a brand voice full of clipped fragments and poster slogans. Plainspoken means clear speech, not advertising staccato.
-- When the user runs `/plainspoke`, apply these rules for the rest of the task’s prose, including rewrites they request.
+- When the user runs `/plainspoken`, apply these rules for the rest of the task’s prose, including rewrites they request.

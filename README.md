@@ -35,7 +35,7 @@ Update installed skills later with `npx skills update`.
 | **compose** | [`skills/compose/SKILL.md`](skills/compose/SKILL.md) | Docker Compose stacks with collision-resistant high host ports, project-named networks, project-prefixed volumes (host-global unique), wiring dependency ports into app config, and high free ports for host-run app HTTP + Vite (e.g. Laravel `APP_URL` / `SERVER_PORT` / `VITE_PORT`). |
 | **defrag** | [`skills/defrag/SKILL.md`](skills/defrag/SKILL.md) | OS-agnostic host health + hygiene: discover platform/version, assess signals (disk, SMART, memory, load, firmware/RAM profiles, services), map cleanup avenues, measure, and prune safely. Not disk defragmentation. |
 | **reduce** | [`skills/reduce/SKILL.md`](skills/reduce/SKILL.md) | Finds unnecessary seams for safe, low-risk reduction (practical DRY)—duplicated logic, redundant wrappers, parallel paths—without changing functionality. |
-| **plainspoke** | [`skills/plainspoke/SKILL.md`](skills/plainspoke/SKILL.md) | Forces plainspoken prose: bans antithesis, corrective negation, rhetorical crutches, rule of three, em dashes, corporate verbs, hedging, and related devices; writes for the spoken voice. |
+| **plainspoken** | [`skills/plainspoken/SKILL.md`](skills/plainspoken/SKILL.md) | Forces plainspoken prose: bans antithesis, corrective negation, rhetorical crutches, rule of three, em dashes, corporate verbs, hedging, and related devices; writes for the spoken voice. |
 
 ## Layout
 
@@ -55,8 +55,8 @@ skills/
 │       └── devtools.md
 ├── reduce/
 │   └── SKILL.md   # reduce
-└── plainspoke/
-    └── SKILL.md   # plainspoke
+└── plainspoken/
+    └── SKILL.md   # plainspoken
 ```
 
 Each skill lives under `skills/<name>/SKILL.md` with YAML frontmatter (`name`, `description`, `metadata`) for Agent Skills-compatible coding agents.
