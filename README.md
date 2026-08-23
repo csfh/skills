@@ -60,3 +60,7 @@ skills/
 ```
 
 Each skill lives under `skills/<name>/SKILL.md` with YAML frontmatter (`name`, `description`, `metadata`) for Agent Skills-compatible coding agents.
+
+## Community
+
+Use common sense and decency. There is no formal code of conduct. We reserve the right to moderate this community to the extent of the law and the policy of the host. Write community@modoterra.xyz if you need us.
