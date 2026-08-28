@@ -36,6 +36,7 @@ Update installed skills later with `npx skills update`.
 | **defrag** | [`skills/defrag/SKILL.md`](skills/defrag/SKILL.md) | OS-agnostic host health + hygiene: discover platform/version, assess signals (disk, SMART, memory, load, firmware/RAM profiles, services), map cleanup avenues, measure, and prune safely. Not disk defragmentation. |
 | **reduce** | [`skills/reduce/SKILL.md`](skills/reduce/SKILL.md) | Finds unnecessary seams for safe, low-risk reduction (practical DRY)—duplicated logic, redundant wrappers, parallel paths—without changing functionality. |
 | **plainspoken** | [`skills/plainspoken/SKILL.md`](skills/plainspoken/SKILL.md) | Forces plainspoken prose: bans antithesis, corrective negation, rhetorical crutches, rule of three, em dashes, corporate verbs, hedging, and related devices; writes for the spoken voice. |
+| **oss** | [`skills/oss/SKILL.md`](skills/oss/SKILL.md) | Audits a repo against an Echo-shaped OSS setup (LICENSE, README, CONTRIBUTING, assignment CLA, SECURITY.md, GitHub templates, CODEOWNERS, PR CI, community policy) and scaffolds gaps when asked. |
 
 ## Layout
 
@@ -55,8 +56,10 @@ skills/
 │       └── devtools.md
 ├── reduce/
 │   └── SKILL.md   # reduce
-└── plainspoken/
-    └── SKILL.md   # plainspoken
+├── plainspoken/
+│   └── SKILL.md   # plainspoken
+└── oss/
+    └── SKILL.md   # oss
 ```
 
 Each skill lives under `skills/<name>/SKILL.md` with YAML frontmatter (`name`, `description`, `metadata`) for Agent Skills-compatible coding agents.
