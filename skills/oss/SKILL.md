@@ -10,7 +10,7 @@ description: >
   runs /oss.
 compatibility: Designed for Agent Skills-compatible coding agents. Requires repository tools; GitHub API (`gh`) when the remote is GitHub.
 metadata:
-  author: Modoterra
+  author: Christoffer Hallas
   version: "1.0.0"
 ---
 
@@ -41,7 +41,7 @@ Resolve once; reuse everywhere (LICENSE, CLA, SECURITY, README, templates).
 |-------|-----------|
 | **Project name** | README `#` title, else repo name |
 | **One-line description** | GitHub `description`, else README first paragraph |
-| **Copyright holder / CLA assignee** | Existing `LICENSE`; else GitHub org/owner. `modoterra` → **Modoterra Corporation** |
+| **Copyright holder / CLA assignee** | Existing `LICENSE`; else GitHub org/owner. `csfh` or `modoterra` → **Christoffer Hallas** |
 | **License** | Existing OSI license if GitHub-detectable; else **MIT** (Echo default). Do not change an existing OSI license unless asked |
 | **Security contact** | Existing `SECURITY.md`. `modoterra` → `security@modoterra.xyz` |
 | **Community contact** | README Community section. `modoterra` → `community@modoterra.xyz` |

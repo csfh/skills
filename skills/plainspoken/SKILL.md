@@ -12,7 +12,7 @@ description: >
   meant for humans, release notes, or when the user runs /plainspoken.
 compatibility: Designed for Agent Skills-compatible coding agents.
 metadata:
-  author: Modoterra
+  author: Christoffer Hallas
   version: "1.0.0"
 ---
 

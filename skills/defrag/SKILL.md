@@ -13,7 +13,7 @@ compatibility: >
   host being cleaned. Prefer non-destructive measurement first; escalate only
   with explicit user approval for destructive or privileged operations.
 metadata:
-  author: Modoterra
+  author: Christoffer Hallas
   version: "1.1.0"
 ---
 

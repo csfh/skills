@@ -10,7 +10,7 @@ description: >
   or runs /compose.
 compatibility: Designed for Agent Skills-compatible coding agents. Requires Docker Compose and shell access to inspect listening ports.
 metadata:
-  author: Modoterra
+  author: Christoffer Hallas
   version: "1.2.0"
 ---
 

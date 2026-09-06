@@ -3,7 +3,7 @@ name: swe
 description: Applies software-engineering standards to implementation, debugging, refactoring, testing, code review, dependency work, migrations, documentation, and Git workflows. Use for any task that reads, changes, validates, reviews, or commits software in a repository, or when the user runs /swe.
 compatibility: Designed for Agent Skills-compatible coding agents. Requires repository tools appropriate to the project.
 metadata:
-  author: Modoterra
+  author: Christoffer Hallas
   version: "1.1.0"
 ---
 

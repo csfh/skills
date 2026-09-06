@@ -9,7 +9,7 @@ description: >
   structure, or runs /reduce.
 compatibility: Designed for Agent Skills-compatible coding agents. Requires repository tools appropriate to the project.
 metadata:
-  author: Modoterra
+  author: Christoffer Hallas
   version: "1.0.0"
 ---
 
