@@ -43,8 +43,8 @@ Resolve once; reuse everywhere (LICENSE, CLA, SECURITY, README, templates).
 | **One-line description** | GitHub `description`, else README first paragraph |
 | **Copyright holder / CLA assignee** | Existing `LICENSE`; else GitHub org/owner. `csfh` or `modoterra` → **Christoffer Hallas** |
 | **License** | Existing OSI license if GitHub-detectable; else **MIT** (Echo default). Do not change an existing OSI license unless asked |
-| **Security contact** | Existing `SECURITY.md`. `csfh` or `modoterra` → `github@christofferhallas.com` |
-| **Community contact** | README Community section. `csfh` or `modoterra` → `github@christofferhallas.com` |
+| **Security contact** | Existing `SECURITY.md`. `csfh` or `modoterra` → `oss@christofferhallas.com` |
+| **Community contact** | README Community section. `csfh` or `modoterra` → `oss@christofferhallas.com` |
 | **CODEOWNERS** | Existing file. Else ask. Do not invent handles |
 
 Ask for any field you cannot resolve. Do not guess emails or owners.
